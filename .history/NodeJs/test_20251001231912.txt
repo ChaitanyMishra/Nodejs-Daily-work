@@ -1,0 +1,1 @@
+This Text was written by using fs.writeFileComplete File Heandling before 12:00 Current Time - function toString() { [native code] }
