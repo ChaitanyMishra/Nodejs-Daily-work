@@ -1,6 +1,6 @@
 # 🚀 My Node.js Journey
 
-Welcome to my **Node.js Learning Journey Repository**! 🎉
+Welcome to my **Backend Learning Journey Repository**! 🎉
 This repo is where I track my progress, write notes, and push code as I grow from **beginner → advanced** in Node.js.
 
 ---
