@@ -24,7 +24,7 @@ const server = http.createServer((req, res) => {
         case "/projects":
             res.end("SnapFetch - Image Search Engine! \nPersonal Portfolio Using React")
         default:
-            res.weiteHead(404, { "content-type": "text/plain" })
+            res.writeHead(404, { "content-type": "text/plain" })
             res.end("404 Error! Page Not Found")
 
     }
@@ -34,9 +34,19 @@ const server = http.createServer((req, res) => {
                 if(err){
                     throw new Error("Error! " + err);
                 }else{
-                    res.end()
+                    res.end(`Hi there! My Name Is ${data.name}`)
                 }
             })
+            case "email":
+            fs.readFile("server.json" , "utf-8" , (err , data) =>{
+                if(err){
+                    throw new Error("Error! " + err);
+                }else{
+                    res.end(`Hi there! My Email Id Is ${data.name}`)
+                }
+            })
+            
+
     }
     })
     
