@@ -27,22 +27,22 @@ This repo is where I track my progress, write notes, and push code as I grow fro
 
 ### ⚡ Asynchronous Programming
 
-* [ ] Callbacks
-* [ ] Promises
-* [ ] Async/Await
-* [ ] Error handling in async code
+* [x] Callbacks
+* [x] Promises
+* [x] Async/Await
+* [x] Error handling in async code
 
 ### 🌐 Building Servers
 
-* [ ] HTTP module basics
-* [ ] Routing & URL handling
-* [ ] REST API with Express.js
-* [ ] Middleware in Express
-* [ ] Postman for API testing
+* [x] HTTP module basics
+* [x] Routing & URL handling
+* [x] REST API with Express.js
+* [x] Middleware in Express
+* [x] Postman for API testing
 
 ### 🗄️ Databases
 
-* [ ] MongoDB basics
+* [x] MongoDB basics
 * [ ] Mongoose ORM
 * [ ] CRUD APIs with MongoDB
 * [ ] Authentication with JWT + MongoDB
