@@ -2,8 +2,8 @@ const express = require("express")
 const app = express();
 const dotenv = require("dotenv")
 const router = require("./routes/url")
+const path = require('path')
 const {connectDb} = require("./connect")
-const {urlShortner , userAnalytics} = require("./controllers/url")
 
 const URL = require("./models/url")
 app.use(express.json())
@@ -17,6 +17,11 @@ const port = process.env.PORT || 3000
 
 
 app.use("/url" , router)
+app.use(express.static("public"))
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'))
+})
 app.get("/url/:shortId" , async(req , res) => {
     try {
         const shortID = req.params.shortId

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>URL Shortener UI</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Simple URL Shortener</h1>
+
+      <section class="card">
+        <h2>Create short URL</h2>
+        <form id="create-form">
+          <input id="url-input" type="url" placeholder="https://example.com" required />
+          <button type="submit">Shorten</button>
+        </form>
+        <div id="create-result" class="result"></div>
+      </section>
+
+      <section class="card">
+        <h2>Get analytics</h2>
+        <form id="analytics-form">
+          <input id="analytics-id" type="text" placeholder="Enter short id" required />
+          <button type="submit">Get Analytics</button>
+        </form>
+        <pre id="analytics-result" class="result"></pre>
+      </section>
+
+      <footer>Built for NodeJs-06</footer>
+    </main>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
