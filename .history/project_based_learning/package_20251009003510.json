@@ -1,0 +1,17 @@
+{
+  "name": "project_based_learning",
+  "version": "1.0.0",
+  "description": "Learn Backend with Projects",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodeomon src.index.js",
+     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chaitany Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.19.1",
+    "nodemon": "^3.1.10"
+  }
+}

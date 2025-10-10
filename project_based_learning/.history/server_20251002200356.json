@@ -1,0 +1,13 @@
+{
+    "about" : {
+    "name" : "Chaitany",
+    "course" : "BCA",
+    "Semester" : "5th semester",
+    "cgpa" : "7.24 (till 4th semester)",
+    "city" : "Kanpur",
+    "email" : "chaitany.mishra.tech@gmail.com"
+    },
+    "projects" : {
+        "1" : "snapFetch - Image Search Engin"
+    }
+}

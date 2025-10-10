@@ -1,0 +1,11 @@
+console.log("Hello World! This is my first Node.js program.");
+console.log("Node.js is running successfully.");
+console.log("Let's build something amazing with Node.js!");
+console.log("Node.js is awesome!");
+console.log("This is a simple Node.js application.");
+console.log("Node.js makes server-side programming fun!");
+console.log("Welcome to the world of Node.js!");
+console.log("Node.js is great for building scalable applications.");
+console.log("Let's explore more about Node.js.");
+console.log("Happy coding with Node.js!");
+console.log("Node.js is event-driven and non-blocking.");

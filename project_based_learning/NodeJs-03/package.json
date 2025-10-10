@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-03",
+  "version": "1.0.0",
+  "description": "Start Learning Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chaitany",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
